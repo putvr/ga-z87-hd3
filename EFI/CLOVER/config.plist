@@ -153,7 +153,9 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>92</integer>
+			<string>No</string>
+			<key>ResetHDA</key>
+			<false/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -205,14 +207,7 @@
 			<integer>8</integer>
 		</dict>
 		<key>Scan</key>
-		<dict>
-			<key>Entries</key>
-			<true/>
-			<key>Legacy</key>
-			<string>First</string>
-			<key>Tool</key>
-			<true/>
-		</dict>
+		<true/>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
@@ -243,7 +238,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
@@ -252,17 +247,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
+				<data>RXh0ZXJuYWw=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>SW50ZXJuYWw=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -270,9 +261,7 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g/sPDw==
-				</data>
+				<data>g/sPDw==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -280,9 +269,7 @@
 				<key>Name</key>
 				<string>com.apple.iokit.IOUSBHostFamily</string>
 				<key>Replace</key>
-				<data>
-				g/s/Dw==
-				</data>
+				<data>g/s/Dw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -290,9 +277,7 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g+MP0w==
-				</data>
+				<data>g+MP0w==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -300,9 +285,7 @@
 				<key>Name</key>
 				<string>com.apple.iokit.IOUSBHostFamily</string>
 				<key>Replace</key>
-				<data>
-				g+M/0w==
-				</data>
+				<data>g+M/0w==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -310,9 +293,7 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g/sPDw==
-				</data>
+				<data>g/sPDw==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -320,9 +301,7 @@
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>
-				g/s/Dw==
-				</data>
+				<data>g/s/Dw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -331,9 +310,7 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g/8PDw==
-				</data>
+				<data>g/8PDw==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -341,9 +318,7 @@
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>
-				g/8/Dw==
-				</data>
+				<data>g/8/Dw==</data>
 			</dict>
 		</array>
 	</dict>
