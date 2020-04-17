@@ -1,2 +1,4 @@
 EFI/APPLE
 *.log
+.empty
+EFI/Clover_Install_Log.txt
